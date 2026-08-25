@@ -26,7 +26,7 @@ function HomePage() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <BookingProvider>
       <div className="min-h-screen bg-slate-50 font-sans selection:bg-teal-200 selection:text-teal-900 text-slate-800">
         <Header />
