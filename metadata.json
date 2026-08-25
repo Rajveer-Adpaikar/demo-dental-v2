@@ -1,0 +1,6 @@
+{
+  "name": "Dental.com Clone",
+  "description": "A clone of the Dental.com virtual dentistry and oral health companion website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
