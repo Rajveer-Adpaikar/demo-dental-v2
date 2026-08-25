@@ -44,10 +44,10 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white mb-4">Patients</h4>
             <ul className="space-y-1">
-              <li><a href="/#smart-scan" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Smart Scan</a></li>
+              <li><a href="#smart-scan" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Smart Scan</a></li>
               <li><button onClick={openBooking} className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Virtual Consultations</button></li>
-              <li><a href="/#services" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Find a Dentist</a></li>
-              <li><a href="/#services" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Second Opinions</a></li>
+              <li><a href="#services" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Find a Dentist</a></li>
+              <li><a href="#services" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Second Opinions</a></li>
               <li><button onClick={openBooking} className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Emergency Care</button></li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-white mb-4">Company</h4>
             <ul className="space-y-1">
-              <li><a href="/#services" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">About Us</a></li>
+              <li><a href="#services" className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">About Us</a></li>
               <li><a href={`mailto:${CONTACT_EMAIL}`} className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Careers</a></li>
               <li><a href={`mailto:${CONTACT_EMAIL}`} className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Press</a></li>
               <li><a href={`mailto:${CONTACT_EMAIL}`} className="inline-block py-2 text-slate-400 hover:text-teal-400 transition-colors">Contact</a></li>

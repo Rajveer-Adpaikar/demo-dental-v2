@@ -36,9 +36,9 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="/#services" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Services</a>
-          <a href="/#smart-scan" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Smart Scan</a>
-          <a href="/#services" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">For Providers</a>
+          <a href="#services" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Services</a>
+          <a href="#smart-scan" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">Smart Scan</a>
+          <a href="#services" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">For Providers</a>
         </nav>
 
         {/* Desktop Actions */}
@@ -68,9 +68,9 @@ export default function Header() {
             className="absolute top-full left-0 w-full bg-white border-b border-slate-100 shadow-xl md:hidden"
           >
             <div className="p-6 flex flex-col gap-4">
-              <a href="/#services" className="text-lg font-medium text-slate-900" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
-              <a href="/#smart-scan" className="text-lg font-medium text-slate-900" onClick={() => setIsMobileMenuOpen(false)}>Smart Scan</a>
-              <a href="/#services" className="text-lg font-medium text-slate-900" onClick={() => setIsMobileMenuOpen(false)}>For Providers</a>
+              <a href="#services" className="text-lg font-medium text-slate-900" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
+              <a href="#smart-scan" className="text-lg font-medium text-slate-900" onClick={() => setIsMobileMenuOpen(false)}>Smart Scan</a>
+              <a href="#services" className="text-lg font-medium text-slate-900" onClick={() => setIsMobileMenuOpen(false)}>For Providers</a>
               <hr className="border-slate-100 my-2" />
               <button onClick={() => { setIsMobileMenuOpen(false); openBooking(); }} className="w-full text-center py-3 text-lg font-medium text-white bg-teal-600 rounded-xl shadow-md shadow-teal-200">
                 Book Appointment
